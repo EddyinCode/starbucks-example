@@ -52,8 +52,7 @@ fadeEls.forEach(function (fadeEl, index){
 
 new Swiper('.notice-line .swiper-container', { direction: 'vertical', autoplay: true, loop: true })
 
-new Swiper('.promotion .swiper-container', { slidesPerView: 3, spaceBetween: 10, centeredSlides: true, loop: true,
-    autoplay: {delay: 5000},
+new Swiper('.promotion .swiper-container', { slidesPerView: 3, spaceBetween: 10, centeredSlides: true, loop: true, autoplay: {delay: 5000},
     pagination: {
         el: '.promotion .swiper-pagination',
         clickable: true,
@@ -112,4 +111,3 @@ spyEls.forEach(function (spyEl){
 
 const thisYear = document.querySelector('.this-year')
 thisYear.textContent = new Date().getFullYear()
-
